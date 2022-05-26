@@ -1,0 +1,33 @@
+.loginBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loginFrom {
+  color: white;
+  background-color: darkgrey;
+  width: 500px;
+  /* height: 300px; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inputFromLogin {
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.btnLogin {
+  margin: 10px 0px;
+  border-radius: 5px;
+  padding: 10px 50px;
+  color: white;
+  background-color: #ff1744;
+  border: none !important;
+  font-weight: bold;
+  cursor: pointer;
+}

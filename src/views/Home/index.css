@@ -1,0 +1,127 @@
+.search-section-title {
+  text-align: center;
+  color: #ff1744;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 40px;
+}
+.search-section-input-box {
+  width: 100%;
+  text-align: center;
+}
+.search-section-input {
+  width: 50% !important;
+  text-align: center;
+  font-size: 20px !important;
+  border-radius: 50px !important;
+  margin: 10px 0px;
+}
+
+.filter-link-box {
+  padding-bottom: 8px;
+}
+.filter-link {
+  color: black;
+}
+.filter-link:hover {
+  color: #ff1744;
+  text-decoration: underline;
+}
+
+.movieBox {
+  /* margin: 10px !important; */
+  border-radius: 5px !important;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%);
+}
+
+.zoom-effect-container {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.imgPoster {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px !important;
+  /* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%); */
+  /* -webkit-transition: 0.4s ease;
+  transition: 0.4s ease; */
+}
+
+/* .imgPoster:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  border-radius: 10px !important;
+} */
+
+.movieTitle {
+  /* position: absolute; */
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ant-back-top-content {
+  background-color: rgb(202 35 35 / 65%) !important;
+}
+.ant-back-top-content:hover {
+  background-color: rgb(202 35 35 / 100%) !important;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+  color: darkgray !important;
+  border-top-color: darkgray !important;
+  border-top-width: 5px;
+  font-weight: bold !important;
+}
+
+.ant-divider-horizontal.ant-divider-with-text::before,
+.ant-divider-horizontal.ant-divider-with-text::after {
+  border-width: 3px !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid red !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: red !important;
+}
+
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: red !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: #ff1744 !important;
+}
+
+.ant-radio-inner::after {
+  background-color: #ff1744 !important;
+}
